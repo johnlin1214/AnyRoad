@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.flex-container {
+  padding: 0;
+  margin-left: 20px;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.column { 
+  -webkit-flex-direction: column; 
+  flex-direction: column; 
+  float: left;
+}
+
+.button {
+  margin-top: 10px;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  border-color: #333;
+  color: #333;
+  text-align: center;
+}
+
+.shuffle-btn {
+  background-color: white;
+}
